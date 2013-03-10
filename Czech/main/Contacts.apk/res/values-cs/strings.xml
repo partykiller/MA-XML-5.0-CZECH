@@ -507,7 +507,7 @@
 	<string name="nickname_picker_name_column">Jméno kontaktu</string>
     <string name="nickname_picker_nickname_column">Titul</string>
     <string name="nicknameLabelsGroup">Jméno kontaktu</string>
-    <string name="no_account_prompt">"Aplikace Kontakty pracuje lépe s účtem Google. • Použijte je na každém prohlížeči. • Zálohování kontaktů."</string>
+    <string name="no_account_prompt">"Aplikace Kontakty pracuje lépe s účtem Google. Použijte je na každém prohlížeči. Zálohování kontaktů."</string>
     <string name="no_contact_details">Pro tento účet nejsou dostupné žádné informace</string>
     <string name="no_contact_in_other_phone">Žádné kontakty ve Vašem telefonu</string>
     <string name="no_contacts_dialog_message">Ve Vašich kontaktech se nic nenašlo. Možná jsou uloženy na SIM kartě, importujte je do telefonu.</string>
@@ -608,7 +608,7 @@ Pro přidání kontaktu do oblíbených:
     <string name="percent_sign">%</string>
     <string name="percentage">%s%%</string>
     <string name="phone_info_divider">"  |  "</string>
-    <string name="phone_primary">Primární/string>
+    <string name="phone_primary">Primární</string>
     <string name="phoneLabelsGroup">Telefon</string>
     <string name="photoPickerNotFoundText">V telefonu nejsou k dispozici žádné obrázky.</string>
     <string name="pick_favorites_contacts_list_title">Celkem z %1$d oblíbených kontaktů</string>
