@@ -581,7 +581,7 @@ Pro přidání kontaktu do oblíbených:
     <string name="non_phone_add_to_contacts">Přidat do kontaktů</string>
     <string name="non_phone_caption">Telefonní číslo</string>
     <string name="non_phone_close">Zavřít</string>
-    <string name="noRecentContacts">Žádné zařízení</string>
+    <string name="none_found">Žádné zařízení</string>
     <string name="none_paired">Žádné spárované zařízení</string>  
     <string name="noRecentContacts">Žádné poslední kontakty</string>
     <string name="not_applied">Není podporováno</string>
@@ -646,7 +646,7 @@ Pro přidání kontaktu do oblíbených:
     <string name="pref_summary_import_from_account">Import kontaktů z Google a Exchange účtů do mého Xiaomi účtu</string>
     <string name="pref_title_account_import">Iport z účtu</string>
     <string name="pref_title_import_from_account">Import do Xiaomi účtu</string>
-    <string name="preference_displayOptions">Možnosti zobrazení</string>
+    <string name="preference_auto_ip_summary_disable">Není povoleno</string>
     <string name="preference_auto_ip_summary_on">"IP operátora: %s"</string>
     <string name="preference_auto_ip_title">Auto IP</string>
     <string name="preference_contacts">Kontakt</string>
