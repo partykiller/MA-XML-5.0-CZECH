@@ -608,7 +608,7 @@ Pro přidání kontaktu do oblíbených:
     <string name="percent_sign">%</string>
     <string name="percentage">%s%%</string>
     <string name="phone_info_divider">"  |  "</string>
-    <string name="phone_primary">Primární/string>
+    <string name="phone_primary">Primární</string>
     <string name="phoneLabelsGroup">Telefon</string>
     <string name="photoPickerNotFoundText">V telefonu nejsou k dispozici žádné obrázky.</string>
     <string name="pick_favorites_contacts_list_title">Celkem z %1$d oblíbených kontaktů</string>
