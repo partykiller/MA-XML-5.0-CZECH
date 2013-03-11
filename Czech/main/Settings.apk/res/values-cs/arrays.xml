@@ -16,6 +16,7 @@
         <item>2 min</item>
         <item>5 min</item>
         <item>10 min</item>
+        <item>30 min</item>
     </string-array>
     <string-array name="dream_timeout_entries">
         <item>Nikdy</item>
@@ -60,13 +61,13 @@
     </string-array>
     <string-array name="wifi_status">
         <item></item>
-        <item>Vyhledávání\u2026</item>
-        <item>Připojování\u2026</item>
-        <item>Ověřování\u2026</item>
+        <item>Vyhledávání...</item>
+        <item>Připojování...</item>
+        <item>Ověřování...</item>
         <item>Načítání adresy IP…</item>
         <item>Připojeno</item>
         <item>Pozastaveno</item>
-        <item>Odpojování\u2026</item>
+        <item>Odpojování...</item>
         <item>Odpojeno</item>
         <item>Neúspěšné</item>
 	    <item>Blokované</item>
@@ -74,13 +75,13 @@
     </string-array>
     <string-array name="wifi_status_with_ssid">
         <item></item>
-        <item>Vyhledávání\u2026</item>
-        <item>Připojování k síti %1$s\u2026</item>
-        <item>Ověřování v síti %1$s\u2026</item>
-        <item>Získávání adresy IP ze sítě %1$s\u2026</item>
+        <item>Vyhledávání...</item>
+        <item>Připojování k síti %1$s...</item>
+        <item>Ověřování v síti %1$s...</item>
+        <item>Získávání adresy IP ze sítě %1$s...</item>
         <item>Připojeno k síti %1$s</item>
         <item>Pozastaveno</item>
-        <item>Odpojování od sítě %1$s\u2026</item>
+        <item>Odpojování od sítě %1$s...</item>
         <item>Odpojeno</item>
         <item>Neúspěšné</item>
 	    <item>Blokované</item>
@@ -95,9 +96,10 @@
         <item>PEAP</item>
         <item>TLS</item>
         <item>TTLS</item>
+        <item>PWD</item>
     </string-array>
     <string-array name="wifi_p2p_wps_setup">
-        <item>Stisknutí tlačítka</item>
+        <item>Stisknutím tlačítka</item>
         <item>PIN ze sdíleného zařízení</item>
         <item>PIN z tohoto zaříz.</item>
     </string-array>
@@ -144,6 +146,7 @@
         <item>PEAP</item>
         <item>TLS</item>
         <item>TTLS</item>
+        <item>PWD</item>
     </string-array>
     <string-array name="wifi_phase2_entries">
         <item>Žádné</item>
@@ -151,12 +154,6 @@
         <item>MSCHAP</item>
         <item>MSCHAPV2</item>
         <item>GTC</item>
-    </string-array>
-    <string-array name="wifi_network_setup">
-        <item>Vypnuto</item>
-        <item>Stisknutí tlačítka</item>
-        <item>Kód PIN z přístupového bodu</item>
-        <item>PIN z tohoto zařízení</item>
     </string-array>
     <string-array name="wifi_ip_settings">
         <item>DHCP</item>
@@ -170,10 +167,6 @@
         <item>Vypnuto</item>
         <item>Výstraha</item>
         <item>Vibrace</item>
-    </string-array>
-    <string-array name="special_locale_codes">
-        <item>Chinese (Simplified)</item>
-        <item>Chinese (Traditional)</item>
     </string-array>
     <string-array name="apn_auth_entries">
         <item>Žádné</item>
@@ -195,11 +188,6 @@
         <item>Interní úložiště zařízení</item>
         <item>Vyjímatelná karta SD</item>
         <item>Automaticky vybere systém</item>
-    </string-array>
-    <string-array name="silent_mode_entries">
-        <item>Vypnuto</item>
-        <item>Vibrovat</item>
-        <item>Ticho</item>
     </string-array>
     <string-array name="long_press_timeout_selector_titles">
         <item>Krátké</item>
@@ -234,6 +222,15 @@
         <item>Měřítko animace 5x</item>
         <item>Měřítko animace 10x</item>
     </string-array>
+	<string-array name="animator_duration_scale_entries">
+        <item>Animace vypnuté</item>
+        <item>Animace 0,5x</item>
+        <item>Animace 1x</item>
+        <item>Animace 1,5x</item>
+        <item>Animace 2x</item>
+        <item>Animace 5x</item>
+        <item>Animace 10x</item>
+    </string-array>
     <string-array name="app_process_limit_entries">
         <item>Standardní limit</item>
         <item>Procesy na pozadí deaktivovány</item>
@@ -260,11 +257,40 @@
     </string-array>
     <string-array name="vpn_states">
         <item>Odpojeno</item>
-        <item>Inicializace…</item>
-        <item>Připojování…</item>
+        <item>Inicializace...</item>
+        <item>Připojování...</item>
         <item>Připojeno</item>
         <item>Časový limit vypršel</item>
         <item>Neúspěšné</item>
+    </string-array>
+    <string-array name="user_content_ratings_entries">
+        <item>Ascended being</item>
+        <item>Human</item>
+        <item>Neanderthal</item>
+        <item>Chimp</item>
+        <item>Monkey</item>
+    </string-array>
+    <string-array name="multi_sim_entries">
+        <item>Subscription 1</item>
+        <item>Subscription 2</item>
+    </string-array>
+    <string-array name="multi_sim_summaries">
+        <item>Subscription 1</item>
+        <item>Subscription 2</item>
+    </string-array>
+    <string-array name="multi_sim_entries_voice">
+        <item>Subscription 1</item>
+        <item>Subscription 2</item>
+        <item>Prompt</item>
+    </string-array>
+    <string-array name="multi_sim_summaries_voice">
+        <item>Subscription 1</item>
+        <item>Subscription 2</item>
+        <item>Prompt User</item>
+    </string-array>
+    <string-array name="multi_sim_entries_voice_without_prompt">
+        <item>Subscription 1</item>
+        <item>Subscription 2</item>
     </string-array>
     <string-array name="haptic_feedback_level_entries">
         <item>Slabé</item>
@@ -291,10 +317,28 @@
         <item>8 sekund</item>
         <item>9 sekund</item>
     </string-array>  
+	<string-array name="led_color_values">
+        <item>blue</item>
+        <item>red</item>
+        <item>yellow</item>
+        <item>green</item>
+        <item>cyan</item>
+        <item>white</item>
+        <item>\#FFAA00AA</item>
+    </string-array>
+ 	<string-array name="led_color_entries">
+        <item>Modrá</item>
+        <item>Červená</item>
+        <item>Žlutá</item>
+        <item>Zelená</item>
+        <item>Azurová</item>
+        <item>Bílá</item>
+        <item>Purpurová</item>
+    </string-array>  
     <string-array name="back_long_press_timeout">
-        <item>0.5 s</item>
+        <item>0,5 s</item>
         <item>1 s</item>
-        <item>1.5 s</item>
+        <item>1,5 s</item>
         <item>2 s</item>
     </string-array>
     <string-array name="button_light_timeout_entries">
@@ -305,89 +349,59 @@
         <item>20 sekund</item>
         <item>Vždy zapnuto</item>
     </string-array>
-    <string-array name="led_color_entries">
-        <item>Modrá</item>
-        <item>Červená</item>
-        <item>Žlutá</item>
-        <item>Zelená</item>
-        <item>Azurová</item>
-        <item>Bílá</item>
-        <item>Purpurová</item>
-    </string-array>
-	<string-array name="led_color_values">
-        <item>blue</item>
-        <item>red</item>
-        <item>yellow</item>
-        <item>green</item>
-        <item>cyan</item>
-        <item>white</item>
-        <item>\#FFAA00AA</item>
-    </string-array>
-	<string-array name="animator_duration_scale_entries">
-        <item>Animace vypnuté</item>
-        <item>Animace .5x</item>
-        <item>Animace 1x</item>
-        <item>Animace 1.5x</item>
-        <item>Animace 2x</item>
-        <item>Animace 5x</item>
-        <item>Animace 10x</item>
-    </string-array>
-    <string-array name="user_content_ratings_entries">
-        <item>Ascended being</item>
-        <item>Človek</item>
-        <item>Neandrtálec</item>
-        <item>Šimpanz</item>
-        <item>Opice</item>
-    </string-array>
-    <string-array name="msd_pc_system">
-        <item>Windows XP or older versions</item>
-        <item>Windows Vista or newer versions</item>
-        <item>Mac OS</item>
-        <item>Linux</item>
-    </string-array>
-    <string-array name="msd_pc_system_install_start_summary">
-        <item>"For Windows XP or older versions,
-the driver needs to be manually installed"</item>
-        <item>"For Windows Vista or newer versions,
-the MI 2 music player will appear on your computer"</item>
-        <item>"For Mac OS operating system,
-the driver software needs to be manually installed"</item>
-        <item></item>
-    </string-array>
-    <string-array name="msd_pc_system_install_step_1_summary">
-        <item>"(Please ignore the Setup Wizard’s screen pop up)
-XIAOMI storage device will appear on your computer
-Open and select Setup.exe for installation"</item>
-        <item></item>
-        <item>"XIAOMI storage device will appear on your computer
-Open and select AndroidFileTransfer.dmg for installation"</item>
-        <item></item>
-    </string-array>
-    <string-array name="msd_pc_system_install_step_2_summary">
-        <item>"2.MI 2 mobile storage device will appear on your computer
-You can now transfer files"</item>
-        <item></item>
-        <item>"Computer will auto open and read phone data
-You can now transfer files"</item>
-        <item></item>
-    </string-array>
-    <string-array name="msd_pc_system_install_finish_summary">
-        <item>"If you install this driver
-MI 2 mobile storage device should appear on the computer"</item>
-        <item>"For Windows Vista or newer versions,
-the MI 2 music player will appear on your computer"</item>
-        <item>"If you install this driver
-Computer will auto open and read phone data"</item>
-        <item></item>
-    </string-array>
-    <string-array name="msd_install_status">
-        <item>Instalovat ovladač</item>
-        <item>Ovladač už je nainstalovaný</item>
+    <string-array name="wfd_status">
+        <item>Zařízení připojeno...</item>
+        <item>Session created</item>
+        <item>Session tearing down...</item>
+        <item>Session failed</item>
+        <item>Session creating timeout, retrying...</item>
+        <item>Zařízení připojeno</item>
     </string-array>
     <string-array name="power_mode_entries">
         <item>Výkonný režim</item>
         <item>Normální režim</item>
         <item>Úspora energie</item>
+    </string-array>
+    <string-array name="msd_pc_system">
+        <item>Windows XP nebo starší</item>
+        <item>Windows Vista nebo novější</item>
+        <item>Mac OS</item>
+        <item>Linux</item>
+    </string-array>
+    <string-array name="msd_pc_system_install_start_summary">
+        <item>"Pro Windows XP a starší systémy,
+musí být ovladač nainstalovaný manuálně"</item>
+        <item>"Pro Windows Vista a novější,
+se Xiaomi Mi2 zobrazí jako přehrávač hudby MTP"</item>
+        <item>"Pro operační systém Mac OS,
+musí být ovladač nainstalovaný manuálně"</item>
+        <item></item>
+    </string-array>
+    <string-array name="msd_pc_system_install_step_1_summary">
+        <item>"(Ignorujte vyskakovací okno průvodce instalací)
+XIAOMI úložiště se zobrazí ve Vašem počítači.
+Otevřete soubor Setup.exe pro naistalování"</item>
+        <item></item>
+        <item>"XIAOMI úložiště se zobrazí ve Vašem počítači
+Otevřete soubor AndroidFileTransfer.dmg pro naisntalování"</item>
+        <item></item>
+    </string-array>
+    <string-array name="msd_pc_system_install_step_2_summary">
+        <item>"2.MI 2 úložiště se zobrazí ve Vašem počítači
+Nyní můžete kopírovat soubory"</item>
+        <item></item>
+        <item>"Počítač automaticky otevře složku ve Vašem telefonu
+Nyní můžete kopírovat soubory"</item>
+        <item></item>
+    </string-array>
+    <string-array name="msd_pc_system_install_finish_summary">
+        <item>"Jestliže nainstalujete tento ovladač
+MI 2 úložiště se zobrazí ve Vašem počítači"</item>
+        <item>"Pro Windows Vista nebo novější,
+se MI 2 zobrazí jako přehrávač hudby ve Vašem počítači"</item>
+        <item>"Jestliže nainstalujete tento ovladač
+Počítač automaticky otevře složku ve Vašem telefonu"</item>
+        <item></item>
     </string-array>
     <string-array name="screen_color_title">
         <item>Teplé barvy</item>
@@ -397,5 +411,14 @@ Computer will auto open and read phone data"</item>
     <string-array name="screen_saturation_title">
         <item>Brilliant</item>
         <item>Standard</item>
+    </string-array>
+    <string-array name="perm_hips_action">
+        <item>Povolit</item>
+        <item>Zeptat se</item>
+        <item>Zakázat</item>
+    </string-array>
+    <string-array name="startup_hips_action">
+        <item>Povolit</item>
+        <item>Zakázat</item>
     </string-array>
 </resources>
