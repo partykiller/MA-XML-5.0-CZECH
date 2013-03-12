@@ -1,24 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="clir_display_values">
-        <item>Nastavení sítě</item>
-        <item>Skrýt číslo</item>
-        <item>Zobrazit číslo</item>
-    </string-array>
    <string-array name="preferred_network_mode_choices">
         <item>LTE/CDMA</item>
-        <item>Pouze EvDo</item>
+        <item>Jen EvDo</item>
         <item>CDMA w/o EvDo</item>
         <item>Automaticky CDMA / EvDo</item>
         <item>Automaticky GSM / WCDMA</item>
-        <item>Pouze WCDMA</item>
-        <item>Pouze GSM</item>
-        <item>GSM / WCDMA preferováno</item>
+        <item>Jen WCDMA</item>
+        <item>Jen GSM</item>
+        <item>GSM / WCDMA preferované</item>
+    </string-array>
+    <string-array name="preferred_network_mode_choices_lte">
+        <item>LTE / CDMA</item>
+        <item>CDMA</item>
     </string-array>
     <string-array name="gsm_umts_network_preferences_choices">
         <item>GSM/WCDMA (auto režim)</item>
-        <item>Pouze WCDMA</item>
-        <item>Pouze GSM</item>
+        <item>Jen WCDMA</item>
+        <item>Jen GSM</item>
         <item>GSM/WCDA (preferovat WCDMA)</item>
     </string-array>
     <string-array name="tty_mode_entries">
