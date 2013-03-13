@@ -3,6 +3,7 @@
     <string name="app_label">Stahování</string>
     <string name="button_sort_by_date">Seřadit dle data</string>
     <string name="button_sort_by_size">Seřadit dle velikosti</string>
+    <string name="cancel_download_notice">Zrušit upozornění</string>
     <string name="cancel_running_download">Zrušit</string>
     <string name="confirm_delete_downloads_message">vybrané downloady budou smazány</string>
     <string name="confirm_delete_the_download_item_message">Potvrďte odstranění</string>
@@ -21,6 +22,7 @@
     <string name="dialog_queued_body">Tento soubor je již ve frontě pro stažení.</string>
     <string name="dialog_title_not_available">Stahování neúspěšné</string>
     <string name="dialog_title_queued_body">Soubor zatím není k dispozici</string>
+    <string name="disable_download_only_in_wifi_title">Vypnout â€śStahovat jen přes Wi-Fiâ€ť</string>
     <string name="download_complete">Staženo</string>
     <string name="download_error">Neúspěšný</string>
     <string name="download_error_insufficient_space">Nedostatek místa</string>
@@ -38,7 +40,7 @@
     <string name="download_title_sorted_by_date">Stažené - dle data</string>
     <string name="download_title_sorted_by_size">Stažené - dle velikosti</string>
     <string name="download_when_network_connected">Wi-Fi + Mobilní data</string>
-    <string name="downloads_operating">Pracuji\u2026</string>
+    <string name="downloads_operating">Pracuji...</string>
     <string name="editmode_menu_delete">Smazat</string>
     <string name="editmode_menu_share">Sdílet</string>
     <string name="keep_queued_download">Udržet</string>
@@ -64,9 +66,9 @@
     <string name="prefDefault_max_bytes_limit">1048576</string>
     <string name="preferences_title">Nastavení</string>
     <string name="remove_download">Odstranit</string>
+	<string name="retry_after_network_available">Prosím, zkuste znovu až bude dostupná síť</string>	
     <string name="restart_download">Restart</string>
     <string name="resume_download">Obnovit</string>
-    <string name="retry_after_network_available">Zkuste to prosím znovu při dostupném připojení k internetu</string>
     <string name="retry_download">Opakovat</string>
     <string name="select_all">Vybrat vše</string>
     <string name="select_operation_items">Please select operation items</string>
