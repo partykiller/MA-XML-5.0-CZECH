@@ -1,12 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="Ntracks_search_result_format">
+        <item quantity="other">%d skladeb</item>
+        <item quantity="one">%d skladba</item>
+    </plurals>
+    <plurals name="Ntracks_total">
+        <item quantity="other">%d skladeb</item>
+        <item quantity="one">%d skladba</item>
+    </plurals>
+    <plurals name="Ntracks_string">
+        <item quantity="other">%d skladeb</item>
+        <item quantity="one">%d skladba</item>
+    </plurals>
     <plurals name="Ntracks_format">
-        <item quantity="other">%1$d skladeb</item>
-        <item quantity="one">%1$d skladba</item>
+        <item quantity="other">%d skladeb</item>
+        <item quantity="one">%d skladba</item>
     </plurals>
     <plurals name="Nalbums_format">
-        <item quantity="other">%1$d alb</item>
-        <item quantity="one">%1$d album</item>
+        <item quantity="other">%d alb</item>
+        <item quantity="one">%d album</item>
     </plurals>
     <plurals name="Ntracks">
         <item quantity="other">skladeb</item>
@@ -29,51 +41,35 @@
         <item quantity="one">" složka"</item>
     </plurals>
     <plurals name="Ntracks_batch_selection">
-        <item quantity="other">%1$d skladeb vybráno</item>
-        <item quantity="one">%1$d skladba vybrána</item>
-    </plurals>
-    <plurals name="Nalbums_batch_selection">
-        <item quantity="other">%1$d alb vybráno</item>
-        <item quantity="one">%1$d album vybráno</item>
-    </plurals>
-    <plurals name="Nartists_batch_selection">
-        <item quantity="other">%1$d umělců vybráno</item>
-        <item quantity="one">%1$d umělec vybrán</item>
-    </plurals>
-    <plurals name="Nfolders_batch_selection">
-        <item quantity="other">%1$d seložek vybráno</item>
-        <item quantity="one">%1$d složka vybrána</item>
-    </plurals>
-    <plurals name="Nplaylists_batch_selection">
-        <item quantity="other">%1$d playlistů vybráno</item>
-        <item quantity="one">%1$d playlist vybrán</item>
+        <item quantity="other">%d vybraných skladeb</item>
+        <item quantity="one">%d vybraná skladba</item>
     </plurals>
     <plurals name="Ntrack_in_sdcard_format">
-        <item quantity="other">Na SD kartě je %1$d skladeb</item>
-        <item quantity="one">Na SD kartě je %1$d skladba</item>
+        <item quantity="other">Na SD kartě je %d skladeb</item>
+        <item quantity="one">Na SD kartě je %d skladba</item>
     </plurals>
     <plurals name="NNNtrackstoplaylist">
-        <item quantity="other">%1$d přidáno do playlistu.</item>
-        <item quantity="one">1 skladba přidána do playlistu.</item>
+        <item quantity="other">%d přidaných do playlistu.</item>
+        <item quantity="one">1 skladba přidaná do playlistu.</item>
     </plurals>
     <plurals name="NNNtrackstofavoriteplaylist">
-        <item quantity="other">%1$d přidáno do playlistu.</item>
-        <item quantity="one">1 skladba přidána do playlistu.</item>
+        <item quantity="other">%d přidaných do playlistu.</item>
+        <item quantity="one">1 skladba přidaná do playlistu.</item>
     </plurals>
     <plurals name="Nonlinecategory">
         <item quantity="other">" kategorií"</item>
-        <item quantity="one">" kategorie"</item>
+        <item quantity="one">" kategerie"</item>
     </plurals>
     <plurals name="album_details_format">
         <item quantity="other">%1$s, %2$d skladeb</item>
         <item quantity="one">%1$s, %2$d skladba</item>
     </plurals>
     <plurals name="NNNtracksdeleted">
-        <item quantity="other">%1$d skladeb smazáno.</item>
-        <item quantity="one">1 skladba smazána.</item>
+        <item quantity="other">%d skladeb vymazáno.</item>
+        <item quantity="one">1 skladba vymazána.</item>
     </plurals>
-    <plurals name="Nnowplaying">
-        <item quantity="other">skladeb v Právě hraje</item>
-        <item quantity="one">Skladba v  Právě hraje</item>
+    <plurals name="NTrackstoDownload">
+        <item quantity="other">%d skladeb bude stažených.</item>
+        <item quantity="one">1 skladba bude stažena.</item>
     </plurals>
 </resources>
