@@ -4,8 +4,8 @@
     <string name="adjust_traffic_auto_adjust_hint">Systém se ptá a upravuje údaje pravidelně od operátora. Je třeba nastavit informace o operátorovi.</string>
     <string name="adjust_traffic_auto_adjust_open_hint">Automatické upravování měsíčního balíčku je nastaveno</string>
     <string name="adjust_traffic_auto_adjust_title">Automatické nastavení</string>
-    <string name="adjust_traffic_carrier_adjusting">Nastavování provozu\u2026</string>
     <string name="adjust_traffic_carrier_adjust">Zjistit od operátora</string>
+    <string name="adjust_traffic_carrier_adjusting">Nastavování provozu...</string>
     <string name="adjust_traffic_carrier_settings_title">Mobilní operátor</string>
     <string name="adjust_traffic_carrier_summary_more_onemonth_before">"Více jak měsíc už nebylo aktualizované"</string>
     <string name="adjust_traffic_carrier_summary_more_oneweek_before">"Více jak týden už nebylo aktualizované"</string>
@@ -15,6 +15,7 @@
     <string name="adjust_traffic_carrier_summary_yesterday">Aktualizované včera v: %1$02d:%2$02d</string>
     <string name="adjust_traffic_manual_adjust">Vložit ručně</string>
     <string name="adjust_traffic_relate_settings">Související nastavení.</string>
+    <string name="adjust_traffic_sms_template_update">Vzor SMS o stavu</string>
     <string name="adjust_traffic_title">Upravit přenos dat</string>
     <string name="adjust_traffic_update">Obnovit</string>
     <string name="app_detail_internet_background">Průběh na pozadí</string>
@@ -70,6 +71,10 @@
     <string name="menu_refresh">Obnovit</string>
     <string name="menu_settings">Nastavení</string>
     <string name="menu_sort">Seřadit</string>
+    <string name="menu_sort_by_all_traffic">Podle spotřeby</string>
+    <string name="menu_sort_by_disabled">Podle deaktiv. App</string>
+    <string name="menu_sort_by_mobile_traffic">Podle 2G/3G spotřeby</string>
+    <string name="menu_sort_by_name">Podle jména</string>
     <string name="menu_traffic_adjust">Přizpůsobení provozu</string>
     <string name="menu_traffic_settings">Nastavení balíčku dat</string>
     <string name="mobile_traffic">2G/3G:\u0020%s</string>
@@ -84,7 +89,7 @@
     <string name="plate_traffic_already_used">Využito (%s)</string>
     <string name="plate_traffic_exceed">Překročení (%s)</string>
     <string name="plate_traffic_remain">Zbývá (%s)</string>
-    <string name="powered_by">Technická podpora poskytovaná WALL-E</string>
+    <string name="powered_by" />	
     <string name="pref_category_adjust_traffic">Přizpůsobení provozu</string>
     <string name="pref_connect_settings_enable_backgroung">Povolit automatické připojení k internetu na pozadí</string>
     <string name="pref_connect_settings_enable_backgroung_hint">Povolit aplikacím automatické připojování k internetu na pozadí</string>
@@ -119,17 +124,16 @@
     <string name="sync_traffic_no_cmd_detail">"Napiště Váš kraj a operátora na naše fórum MIUI: http://www.miui.com/forum-172-1.html. Děkujeme."</string>
     <string name="sync_traffic_no_cmd_title">Není dostupná vzorová SMS</string>
     <string name="sync_traffic_success">"Získána data od operátora, provoz upraven"</string>
-    <string name="this_month">Tento měsíc\u0020</string>
-    <string name="today">Dnes\u0020</string>
+    <string name="text_day" />
+    <string name="text_done">Hotovo</string>
+    <string name="text_save">Uložit</string>
     <string name="traffic_none">Žádné</string>
-    <string name="traffic_package_widget_name">Spotřeba dat (1x4)</string>
     <string name="traffic_remain">Zbývající</string>
     <string name="traffic_settings_error">Chyba nastavení balíčku. Vámi nastavení datový balíček je %1$s, ale zpráva od operátora udává, že zbývá %2$s.</string>
     <string name="traffic_suffix">Provoz</string>
     <string name="traffic_suffix_with_uint">Provoz(MB)</string>
     <string name="traffic_total">Datový balíček:%s</string>
     <string name="traffic_used_status">Využito:%s</string>
-    <string name="traffic_widget_name">Monitoring sítě (1x2)</string>
     <string name="unknown">Neznámé</string>
     <string name="unknown_free_traffic_hint">"Pokud neznáte velikost svého datového balíčku, prosím zavolejte operátorovi"</string>
     <string name="unknown_free_traffic_text">"Neznáte svůj datový balíček?"</string>
@@ -140,10 +144,10 @@
     <string name="update_fail">Aktualizace selhala</string>
     <string name="update_no_network">Nelze aktualizovat, zkontrolujte prosím připojení k internetu.</string>
     <string name="update_success">Aktualizace kompletní</string>
-    <string name="updating">Aktualizuji\u2026</string>
+    <string name="updating">Aktualizuji...</string>
     <string name="used_flux">Využití dat</string>
     <string name="version_label">"Verze:\u0020"</string>
     <string name="warning_title">Upozornění</string>
-    <string name="widget_traffic_total">Datový balíček: %s</string>
-    <string name="widget_traffic_used_status">Využito: %s</string>
+    <string name="wifi_traffic">Wi-fi: %s</string>
+    <string name="wifi_type">Wi-fi</string>	
 </resources>
