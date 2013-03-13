@@ -7,8 +7,8 @@
         <item>--%s</item>
     </string-array>
     <string-array name="menu_share_ways">
-        <item>Zprávy</item>
-        <item>Emaily</item>
+        <item>Zpráva</item>
+        <item>E-mail</item>
     </string-array>
 	<string-array name="contact_entries">
         <item>Jméno</item>
@@ -22,5 +22,11 @@
         <item>Web</item>
         <item>Adresa</item>
         <item>Poznámka</item>
+    </string-array>
+    <string-array name="font_size_names">
+        <item>Malé</item>
+        <item>Střední</item>
+        <item>Velké</item>
+        <item>Obrovské</item>
     </string-array>
 </resources>
